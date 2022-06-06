@@ -1,0 +1,208 @@
+<! Name: Bekzat Nadir, Nfactorial Incubator ––>
+
+
+body {
+  margin: 20px 40px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+/*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+.wrapper {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+/*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+.redExample {
+  flex: 1;
+  background-color: red;
+}
+
+/*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+.blueExample {
+  flex: 1;
+  background-color: blue;
+}
+
+/*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse;
+}
+
+.blueExample2 {
+  width: 80px;
+  background-color: blue;
+}
+
+/* row 3   ---*/
+
+
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.redExample3 {
+  width: 80px;
+  background-color: red;
+}
+
+
+.blueExample3 {
+  width: 80px;
+  background-color: blue;
+}
+
+
+/* row 4   ---*/
+
+.emptyExample4 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.redExample4 {
+flex-grow: 1;
+  background-color: red;
+
+}
+
+
+.blueExample4 {
+  width: 80px;
+  background-color: blue;
+}
+
+
+/* row 5     ---*/
+
+.emptyExample5 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.redExample5 {
+width: 40px;
+background-color: red;
+height: 40px;
+align-self: center;
+
+}
+
+/* row 6      ---*/
+
+.emptyExample6 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.redExample6 {
+flex-grow: 1;
+  background-color: red;
+
+}
+
+
+.blueExample6 {
+  width: 80px;
+  background-color: blue;
+}
+
+.redExample6 {
+flex-grow: 1;
+  background-color: red;
+
+}
+
+/* row 7     ---*/
+
+.emptyExample7 {
+  display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.redExample7 {
+width: 80px;
+background-color: red;
+
+}
+
+.blueExample7 {
+flex-grow: 1;
+background-color: green;
+}
+
+.blueExample71 {
+  height: 20px;
+  background-color: blue;
+}
+
+.blueExample72 {
+  height: 20px;
+  background-color: transparent;
+}
+
+.blueExample73 {
+  height: 20px;
+  background-color: blue;
+}
+
+
+
+/* row 8     ---*/
+
+.emptyExample8 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.orangeExample8 {
+width: 80px;
+background-color: orange;
+
+}
+
+/* row 9    ---*/
+
+.emptyExample9 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.orangeExample9 {
+flex-grow: 1;
+background-color: orange;
+
+}
+
+.greenExample9 {
+width: 20px;
+background-color: transparent;
+
+}
+
+
+
+
+/* TODO: Add CSS for the rest of your solution below */
